@@ -3,119 +3,112 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 2426,
+      "count": 360,
       "max": [
-        3.131666898727417,
-        3.0595359802246094,
-        6.528717041015625
+        0.994189977645874,
+        0.992447018623352,
+        1.0
       ],
       "min": [
-        -3.2918169498443604,
-        -3.378511905670166,
-        0.10875999927520752
+        -0.994189977645874,
+        -0.992447018623352,
+        -1.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 29112,
+      "byteOffset": 4320,
       "componentType": 5126,
-      "count": 2426,
+      "count": 360,
       "max": [
-        0.99874919652938843,
-        0.99996805191040039,
-        0.99952346086502075
+        0.9958996176719666,
+        0.9931592345237732,
+        1.0
       ],
       "min": [
-        -0.99868154525756836,
-        -0.99969989061355591,
-        -0.99983686208724976
+        -0.9958996176719666,
+        -0.9931592345237732,
+        -1.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 2426,
+      "count": 360,
       "max": [
-        0.74990493059158325,
-        0.99929511547088623,
-        0.86022353172302246,
-        1
+        1.0,
+        0.1624610871076584,
+        0.894427478313446,
+        1.0
       ],
       "min": [
-        -0.96579992771148682,
-        -0.99997329711914062,
-        -0.98701441287994385,
-        1
+        -1.0,
+        -0.6881932616233826,
+        -0.8944270014762878,
+        1.0
       ],
       "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 2426,
+      "count": 360,
       "max": [
-        0.99997401237487793,
-        0.97362399101257324
+        0.9519519805908203,
+        0.9951170086860657
       ],
       "min": [
-        0.00012500000593718141,
-        8.0999998317565769e-05
+        0.004883000161498785,
+        0.004883000161498785
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 13650,
-      "max": [
-        2425
-      ],
-      "min": [
-        0
-      ],
+      "count": 1500,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "thesidekick (https://sketchfab.com/thesidekick)",
+      "author": "Scott VanArsdale (https://sketchfab.com/vanart)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/basketball-8d17cb0964334a6cbe4b0e293c238956",
+      "source": "https://sketchfab.com/3d-models/basketball-e3c719662981472f8479031a074bc727",
       "title": "Basketball"
     },
-    "generator": "Sketchfab-7.68.0",
+    "generator": "Sketchfab-12.66.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 54600,
-      "byteOffset": 0,
+      "byteLength": 6000,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 19408,
-      "byteOffset": 54600,
+      "byteLength": 2880,
+      "byteOffset": 6000,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 58224,
-      "byteOffset": 74008,
+      "byteLength": 8640,
+      "byteOffset": 8880,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 38816,
-      "byteOffset": 132232,
+      "byteLength": 5760,
+      "byteOffset": 17520,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -123,62 +116,44 @@
   ],
   "buffers": [
     {
-      "byteLength": 171048,
+      "byteLength": 23280,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/Basketball_size6_baseColor.jpeg"
+      "uri": "textures/initialShadingGroup_baseColor.jpeg"
     },
     {
-      "uri": "textures/Basketball_size6_metallicRoughness.png"
+      "uri": "textures/initialShadingGroup_metallicRoughness.png"
     },
     {
-      "uri": "textures/Basketball_size6_normal.png"
+      "uri": "textures/initialShadingGroup_normal.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "name": "Basketball_size6",
+      "name": "initialShadingGroup",
       "normalTexture": {
-        "index": 2,
-        "scale": 0.75928030303030303,
-        "texCoord": 0
+        "index": 2
       },
       "occlusionTexture": {
-        "index": 1,
-        "strength": 1,
-        "texCoord": 0
+        "index": 1
       },
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.82594696969696968,
-          0.82594696969696968,
-          0.82594696969696968,
-          1
-        ],
         "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
+          "index": 0
         },
-        "metallicFactor": 0,
         "metallicRoughnessTexture": {
-          "index": 1,
-          "texCoord": 0
-        },
-        "roughnessFactor": 0.40776515151515152
+          "index": 1
+        }
       }
     }
   ],
   "meshes": [
     {
+      "name": "defaultMaterial",
       "primitives": [
         {
           "attributes": {
@@ -199,29 +174,59 @@
       "children": [
         1
       ],
-      "name": "RootNode (gltf orientation matrix)",
-      "rotation": [
-        -0.70710678118654746,
-        -0,
-        -0,
-        0.70710678118654757
-      ]
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
     },
     {
       "children": [
         2
       ],
-      "name": "RootNode (model correction matrix)"
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371139006309477e-08,
+        0.999999999999999,
+        0.0,
+        0.0,
+        -0.999999999999999,
+        -4.371139006309477e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Collada visual scene group"
     },
     {
       "children": [
         3
       ],
-      "name": "Basketball_size6_SF.obj.cleaner.materialmerger.gles"
+      "name": "g"
     },
     {
       "mesh": 0,
-      "name": ""
+      "name": "defaultMaterial"
     }
   ],
   "samplers": [
@@ -235,7 +240,7 @@
   "scene": 0,
   "scenes": [
     {
-      "name": "OSG_Scene",
+      "name": "Sketchfab_Scene",
       "nodes": [
         0
       ]
@@ -256,4 +261,3 @@
     }
   ]
 }
-

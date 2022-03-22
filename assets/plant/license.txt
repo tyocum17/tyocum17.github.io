@@ -1,0 +1,11 @@
+Model Information:
+* title:	Monster Plant
+* source:	https://sketchfab.com/3d-models/monster-plant-b7e677ebca4e4b6ea247fba10a356bd4
+* author:	Batuhan13 (https://sketchfab.com/Batuhan13)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Monster Plant" (https://sketchfab.com/3d-models/monster-plant-b7e677ebca4e4b6ea247fba10a356bd4) by Batuhan13 (https://sketchfab.com/Batuhan13) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
