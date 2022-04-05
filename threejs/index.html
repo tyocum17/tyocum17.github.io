@@ -171,9 +171,12 @@
         var threeGLTFLoader = new THREE.GLTFLoader();
         var model;
 
-        threeGLTFLoader.load("resources/burger/scene.gltf", function (gltf) {
+//         threeGLTFLoader.load("resources/burger/scene.gltf", function (gltf) {
+//             model = gltf.scene.children[0];
+//             model.name = 'burger';
+        threeGLTFLoader.load("../threejsexample/resources/Flamingo.glb", function (gltf) {
             model = gltf.scene.children[0];
-            model.name = 'burger';
+            model.name = 'Flamingo';
 
             var animation = gltf.animations[0];
             var mixer = new THREE.AnimationMixer(model);
