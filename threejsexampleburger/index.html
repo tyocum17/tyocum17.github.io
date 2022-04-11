@@ -172,17 +172,10 @@
         var model;
 
         threeGLTFLoader.load("resources/burger/fin.gltf", function (gltf) {
-            model = gltf.scene;
+            gltf.scene.scale.set(0.01, 0.01, 0.01);
+	    model = gltf.scene;
             model.name = 'fin';
-
-            var animation = gltf.animations[0];
-            var mixer = new THREE.AnimationMixer(model);
-            mixers.push(mixer);
-            var action = mixer.clipAction(animation);
-            action.play();
-
-            root.matrixAutoUpdate = false;
-            root.add(model);
+	    root.add(model);
 
             model.position.z = -200;
             model.position.x = 100;
