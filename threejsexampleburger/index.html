@@ -171,8 +171,8 @@
         var threeGLTFLoader = new THREE.GLTFLoader();
         var model;
 
-        threeGLTFLoader.load("resources/burger/fin.gltf", function (gltf) {
-            gltf.scene.scale.set(0.01, 0.01, 0.01);
+        threeGLTFLoader.load("resources/burger/scene.gltf", function (gltf) {
+            gltf.scene.scale.set(0.5, 0.5, 0.5);
 	    model = gltf.scene;
             model.name = 'fin';
 	    root.add(model);
