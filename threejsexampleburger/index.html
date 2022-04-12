@@ -173,14 +173,22 @@
 
         threeGLTFLoader.load("resources/burger/scene.gltf", function (gltf) {
             gltf.scene.scale.set(0.5, 0.5, 0.5);
-	    model = gltf.scene;
-            model.name = 'fin';
+	    model = gltf.scene.children[0];
+            model.name = 'burger';
 	    root.add(model);
+
+	    var animation = gltf.animations[0];
+            var mixer = new THREE.AnimationMixer(model);
+            mixers.push(mixer);
+            var action = mixer.clipAction(animation);
+            action.play();
+
+            root.matrixAutoUpdate = false;
+            root.add(model);
 
             model.position.z = -200;
             model.position.x = 100;
             model.position.y = 100;
-
 
             //////////////////////////////////////////////////////////////////////////////////
             //		render the whole thing on the page
