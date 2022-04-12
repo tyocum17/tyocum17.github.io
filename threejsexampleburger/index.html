@@ -68,7 +68,7 @@
         var mixers = [];
 
         renderer.setPixelRatio(window.devicePixelRatio);
-
+	renderer.encoding = THREE.sRGBEncoding;
         renderer.setClearColor(new THREE.Color('lightgrey'), 0)
         renderer.setSize( window.innerWidth, window.innerHeight );
         renderer.domElement.style.position = 'absolute'
